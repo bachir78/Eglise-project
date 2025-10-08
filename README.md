@@ -194,4 +194,4 @@ Export PDF / Excel des registres
 Projet développé par :
 🧑‍💻 NPD
 📅 Octobre 2025
-📧 email :
+📧 email :ndeyependadiallo4@gmail.com
