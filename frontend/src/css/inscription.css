@@ -1,0 +1,82 @@
+.inscription-form {
+  max-width: 700px;
+  margin: 32px auto;
+  background: rgba(255,255,255,0.95); /* léger transparent pour effet moderne */
+  padding: 2.5rem 2rem 2rem 2rem;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(30, 58, 138, 0.15); /* ombre bleu clair */
+  min-height: calc(100vh - 64px - 64px); /* occupe tout l’espace entre navbar et bas de page */
+}
+
+.inscription-form h2 {
+  background: #1e3a8a; /* bleu foncé */
+  color: #fff;
+  border-radius: 14px 14px 0 0;
+  padding: 22px 0;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.inscription-form .form-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1e3a8a;
+}
+
+.inscription-form input,
+.inscription-form select {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1.5px solid #e0e0e0;
+  font-size: 1.08rem;
+  background: #f3f4f6; /* gris clair pour contraste */
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.inscription-form input:focus,
+.inscription-form select:focus {
+  border-color: #3b82f6; /* bleu clair pour focus */
+  background: #fff;
+  box-shadow: 0 0 0 2px rgba(59,130,246,0.3);
+}
+
+.btn-submit {
+  background-color: #1e3a8a;
+  color: #fff;
+  border-radius: 12px;
+  padding: 14px 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-submit:hover {
+  background-color: #3b82f6;
+}
+
+.btn-retour {
+  background: #e0e7ff;
+  color: #1e3a8a;
+  border-radius: 12px;
+  padding: 14px 0;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-retour:hover {
+  background: #c7d2fe;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .inscription-form {
+    padding: 1.5rem 1rem;
+    min-height: auto;
+  }
+}
