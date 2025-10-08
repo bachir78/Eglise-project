@@ -96,7 +96,7 @@ LocalStorage pour stocker le rôle et le token utilisateur
 Installation du projet
 1️⃣ Cloner le dépôt
 
-git clone https://github.com/ton-repo/eglise.git
+git clone https://github.com/bachir78/Eglise-project.git
 cd eglise
 
 2️⃣ Installation du backend
