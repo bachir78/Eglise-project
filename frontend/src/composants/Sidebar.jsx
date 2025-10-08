@@ -20,7 +20,7 @@ function Sidebar() {
     <>
       <div className={`sidebar ${menuOpen ? "open" : ""}`}>
         <div className="sidebar-logo">
-          <h2>LOGO</h2>
+          <h2>EGLISE</h2>
         </div>
         <ul className="sidebar-menu">
           {/* Tous les utilisateurs voient le Dashboard */}
